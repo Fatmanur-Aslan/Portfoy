@@ -1,0 +1,190 @@
+.grid-container{
+    background-color: #0C356A;
+    height: 650px;
+    font-family:'Edu TAS Beginner', cursive;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+
+.grid-container>img{
+width: 250px;
+}
+ 
+.grid-item-1{
+    margin-left: 20vh;
+    grid-row-start: 2;
+    grid-column-start:1 ;
+}
+
+   .grid-item-2{
+    margin-top: 10vh;
+    margin-left: 10vh;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.grid-item-3{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+grid-column-start: 2;
+grid-row-start: 2;
+margin-right: 5vh;
+}
+  
+
+.grid-item-4{
+    margin-right: 20vh;
+grid-column-start: 3;
+grid-row-start:2;
+   
+}
+
+.grid-item-5{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    margin-top: 10vh;
+   margin-left: 10vh;
+    
+    
+}
+
+.my-photo{
+    height: 170px;
+    width: 190px;
+    border-radius: 50%;
+   
+}
+
+.content{
+    padding: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+}
+.hi{
+    color: #164863;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 3;
+    text-align: center;
+ 
+}
+
+.about img{
+    width: 255px;
+    height: 170px;
+}
+
+.about p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    width: 400px;    
+    margin-right: 35vh;
+}
+
+
+
+.me{color: #164863;
+   text-align: center;
+}
+
+.cat-img{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.cat-text{
+
+    grid-column-start: 3;
+}
+
+.bcycle-img{
+    grid-column-start: 2;
+}
+
+.food-img{grid-column-start: 2;}
+
+.information{
+    margin-top: 10vh;
+    text-align: center;
+}
+.information-head{
+    color: #164863;
+    font-size: 25px;
+}
+.information>p{
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    padding: 20px;}
+
+.btn{
+    text-decoration: none;
+   font-size: 30px;
+    color: white;
+    background-color: #0C356A;
+    padding: 10px;
+    border-radius: 10px;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.footer{
+    margin-top: 15vh;
+    background-color: #0C356A;
+    height:150px;
+}
+
+.footer>p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 60px;
+}
+
+@media (min-width:400px) and (max-width:960px)
+{
+    .grid-container{
+height: 400px;
+    }
+  
+    .grid-container  img {
+       height: 25px;
+       width: 100px;
+       margin: 0;
+    }
+
+.grid-item-2{
+    grid-row-start: 3;
+}
+
+.grid-item-5{
+    grid-row-start: 3;
+}
+.grid-item-3{
+    font-size: 15px;
+    margin: 0;
+    
+}
+
+.about img{
+width:150px;
+height: 100px;    
+}
+.about p { 
+    width: 25vh;
+    font-size: 12px;
+    margin: 0;
+}
+
+  }
