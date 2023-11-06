@@ -1,0 +1,2 @@
+# Portfoy
+Kendimi tanıtıyorum
